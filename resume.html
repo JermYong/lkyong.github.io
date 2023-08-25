@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeremy Yong Lip Khim</title>
+
+        <style>
+            *{
+                padding:0;
+                margin:0;
+            }
+
+            body{
+                background-color:rgb(41, 41, 41);
+            }
+
+            .main-container{
+                font-weight: bold;
+                display:flex;
+                margin:auto;
+                align-items: center;
+                justify-content: center;
+                /* flex-wrap:wrap; */
+            }
+
+            .top{
+                padding-top:10px;
+                width:80%;
+            }
+
+            .me{
+                width: 100%;
+                margin-top:15px;
+                border-style: solid;
+                border-color: aliceblue;
+                border-width: 3px;
+            }
+
+            .name{
+                color:white;
+                font-family: sans-serif;
+                font-weight:bold;
+            }
+
+            .navigate{
+                width:100%;
+                display:flex;
+                justify-content:stretch;
+                align-items: stretch;
+            }
+
+            .nav{
+                flex:1;
+                padding:5px;
+                text-align:center;
+                color:aliceblue;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight:bold;
+                align-items: center;
+                justify-content: center;
+                height:100%;
+                margin:auto;
+            }
+
+            .nav:hover{
+                background-color:grey;
+                height:100%;
+            }
+
+            .section-head{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                color:aliceblue;
+            }
+
+            .section-content{
+                font-family:monospace;
+                color:aliceblue;
+            }
+
+            a{
+                text-decoration: none;
+                color:aliceblue;
+            }
+
+            li{
+                margin-left:15px;
+                color: aliceblue;
+                font-family:monospace;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-container">
+            <div class="top">
+                <div class="name" style="font-size:50px">
+                    <p style="margin:0 0 -9px; font-size:55px;">Jeremy</p> 
+                    <p>Yong Lip Khim</p> 
+                    <p style="font-family:monospace; font-size:20px;font-weight:lighter;">BBM (Operations Management with Analytics Track)</p>
+                    <p style="font-family:monospace; font-size:20px;font-weight:lighter;">BSc (Information Sytems - FinTech and Business Analytics)</p>
+                </div>
+                <img class="me" src="image.jpg">
+                <div class="navigate">
+                    <div class="nav"><a href="#About-me">About</a></div>
+                    <div class="nav"><a href="#Acad-Proj">Academic Projects</a></div>
+                    <div class="nav"><a href="#Person-Proj">Personal Projects</a></div>
+                    <div class="nav"><a href="#Education">Education</a></div>
+                    <div class="nav"><a href="#Contact">Contact</a></div>
+                </div>
+                <br>
+                <div id="About-Me" class="section">
+                    <p class="section-head">about me</p>
+                    <hr>
+                    <p class="section-content" style="font-size:20px">I am a motivated and adaptable individual pursuing a double degree in Business Management and Information Systems at Singapore Management University. My academic journey has provided me with a strong foundation in both the strategic and technological aspects of modern business environments. I thrive on challenges and am enthusiastic about exploring the dynamic intersection of technology and business. Eager to contribute to innovative projects, I am excited to leverage my skills in data analysis and technology integration to drive informed decision-making and business growth.</p>
+                </div>
+                <br>
+                <div id="Acad-Proj" class="section">
+                    <p class="section-head">academic projects</p>
+                    <hr>
+                    <p class="section-content">
+                        <p style="font-size:20px; color:aliceblue; font-family:monospace;">Singapore Management University, Singapore (Aug 2022 – Dec 2022)</p>
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Second Year Project – Fresh Go</p>
+                            <li>Created a web app to remove expensive middleman costs for local farmers</li>
+                            <li>Applied Data Analytics to discover insights</li>
+                            <li>Backend built with Docker</li> 
+                            <li>Frontend built with Vue.js framework</li>
+                            <li>Attained Overall Best in class and A+ for project</li>
+                        <BR>    
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Singapore Management University, Singapore	(Aug 2022 – Dec 2022)</p>
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Second Year Project – Learning Beautiful</p>
+                            <li>Created a mobile app prototype with Figma to successfully apply digital transformation for a STEM Toy Company ‘learning beautiful’</li>
+                            <li>In-depth Industry analysis</li>
+                            <li>Applied Data Analytics to discover STEM Toy industry insights</li>
+                            <li>Incorporated Recommender System and AI Computer Vision for unique user experience</li>
+                    </p>
+                </div>
+                <br>
+                <div id="Person-Proj" class="section">
+                    <p class="section-head">personal projects</p>
+                    <hr>
+                    <p class="section-content">
+                    <p style="font-size:20px; color:aliceblue;font-family:monospace;">HackBizConnect Telegram Channel	(May 2023 – Present)</p>
+                    <li>A telegram repository of Hackathons and Business Case Competitions mainly for University students</li>
+                    <li>Aims to connect like-minded people together to form teams </li>
+                    <li>Utilised Telegram Statistics to gather data and insights to optimise posts’ contents and timing</li>
+                    <li>Promotes open innovation and collaborative innovation</li>
+                    </p>
+                </div>
+                <br>
+                <div id="Education" class="section">
+                    <p class="section-head">education</p>
+                    <hr>
+                    <p class="section-content">
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Singapore Management University (SMU) (2021 – 2025 (expected))</p>
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Double Degree Programme || GPA (-)</p>
+                        <li>Bachelor of Business Management (Operations Management with Operations Analytics Track)</li>
+                        <li>Bachelor of Science – Information Systems (FinTech and Business Analytics Dual Track)</li>
+                        <br>
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">Pioneer Junior College (Jan 2017 - Dec 2018) </p>
+                        <li>Awarded Top 25% in cohort | 2017 & 2018</li>
+                        <li>Attained 7 Credit Units in A-Level Examination | 2018 </li>
+                        <li>Scored 85 Rank Points | 2018</li>
+                        <li>Leadership Post | House Exco | 2017 & 2018</li>
+                        <li>Awarded Level 5 HSK Chinese Proficiency Test | 2017</li>
+                        <li>Stint at Attorney General’s Chambers | 2017 </li>
+                        <br>
+                        <p style="font-size:20px; color:aliceblue;font-family:monospace;">CCAs</p>						
+                        <ol style="margin-left:15px;margin-top:-1px;">
+                            <li>SMU Dragonboat (Aug 2021 – Aug 2022)</li>
+                                <ul style="margin-left:15px;margin-top:-1px;"><li>First runner-up in The Annual Century Race</li></ul>
+                            <li>SMU Athletics	(Feb 2023 – Present)</li>
+                                <ul style="margin-left:15px;margin-top:-1px;"><li>Pesta Sukan 100m and 400m Participant</li></ul>
+                            <li>Pioneer JC Ambassadors	(Jan 2017 – Dec 2018)</li>
+                                <ul style="margin-left:15px;margin-top:-1px;">
+                                    <li>responsible for coordinating with other teammates, hosting guests, and assigning manpower.</li>
+                                    <li>Notable Participations:</li>
+                                    <ul style="margin-left:15px;margin-top:-1px;">
+                                        <li>Japan Exchange Program (JXP) Student Buddy and Host | 2018</li>    
+                                        <li>Open House School Tour and Committee | 2018 </li>
+                                        <li>Parents’ Evening | 2018 </li>
+                                        <li>College Day | 2017 & 2018 </li>
+                                    </ul>
+                                </ul>
+                        </ol>
+
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              const navLinks = document.querySelectorAll("nav ul li a");
+        
+              navLinks.forEach(link => {
+                link.addEventListener("click", event => {
+                  event.preventDefault();
+        
+                  const target = document.querySelector(link.getAttribute("href"));
+                  const offset = -50; // Adjust this value to change the scroll offset
+                  
+                  target.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                    inline: "nearest",
+                    offset: {
+                      top: offset
+                    }
+                  });
+                });
+              });
+            });
+          </script>
+    </body>
+</html>
